@@ -30,12 +30,13 @@ Example:
       // Element Behavior
 
       /**
-       * Pluraize a word
+       * Pluralize a word
        *
        * @param {string} word to pluralize
+       * @param {number} number of items for context
        */
-      pluralize: function(word) {
-        return pluralize(word);
+      pluralize: function(word, itemCount) {
+        return pluralize(word, itemCount);
       }
     });
   </script>
